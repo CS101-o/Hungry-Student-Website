@@ -1,0 +1,69 @@
+.Recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16.66rem;
+    margin: 0 .5rem 2.3rem .5rem;
+    background-color: orange;
+    border-radius: 1rem;
+  }
+
+  .Recipe:hover {
+    transition: 200ms;
+    border: 3px;
+    border-color: orange;
+    border-style: solid;
+  }
+
+.Recipe .image-container {
+  height: 16.66rem;
+  margin-bottom: 0.3rem;
+  margin-top: .3rem;
+  margin-left: .3rem;
+  margin-right: .3rem;
+  background-color: orange;
+}
+
+img {
+  object-fit: cover;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+}
+
+.Recipe h2 {
+  margin-bottom: .5rem;
+  margin-left: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: Ubuntu, sans-serif;
+  color: #021145;
+}
+
+.Recipe-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.symbols {
+  padding-left: 0.6rem;
+}
+
+.Recipe-information p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #021145;
+  padding-left: 0.1rem;
+}
+
+.Recipe-description {
+  display: flex;
+  justify-content: space-between;
+  color: #021145;
+  margin-left: .1rem;
+  margin-bottom: .4rem;
+}
+
+.link-recipe {
+  text-decoration: none;
+}

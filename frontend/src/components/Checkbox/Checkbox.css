@@ -1,0 +1,29 @@
+input[type="checkbox"] {
+    display: none;
+  }
+  input[type="checkbox"] + span {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    margin: -1px 0px 0 0;
+    vertical-align: middle;
+    background: white left top no-repeat;
+    border: 2px solid #ccc;
+    cursor: pointer;
+  }
+  input[type="checkbox"]:checked + span {
+    background: orange -19px top no-repeat;
+  }
+  
+  input[type="checkbox"] + span {
+    margin-right: 180px;
+  }
+
+  .category {
+    padding-left: 28px;
+    padding-top: 3px;
+    font-size: 14pt;
+    font-family: poppins,sans-serif;
+  }

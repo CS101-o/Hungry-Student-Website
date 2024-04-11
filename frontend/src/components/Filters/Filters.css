@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+  
+.custom-select .control {
+    width: 500px;
+}  
+
+.Checkboxes li {
+    margin: 30px;
+    margin-right: 40px;
+}

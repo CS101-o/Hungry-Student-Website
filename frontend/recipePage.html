@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hungry Students</title>
+	<link rel="stylesheet" href="page_style.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Bootstrap JS Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-#021145">
+	<div class="container-fluid">
+		<a href="main_page.html" class="navbar-brand" ><h1 class="text-orange">HUNGRY STUDENTS</h1></a>
+		<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<div class="navbar-nav">
+				<a href="main_page.html" class="nav-item nav-link active">HOME</a>
+				<a href="recipePage.html" class="nav-item nav-link">RECIPES</a>
+				<a href="aboutPage.html" class="nav-item nav-link">ABOUT</a>
+			</div>
+			<div class="navbar-nav ms-auto">
+				<a href="loginPage.html" class="nav-item nav-link">LOGIN</a>
+				<a href="registerPage.html" class="nav-item nav-link">REGISTER</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- Filter Button -->
+<div id="main">
+	<button class="filterbtn" onclick="openNav()">☰ Filters</button>
+</div>
+
+<div class="container-fluid bg-#021145 mb-3">
+<h2 class="p-4 text-white">Food Name</h2>
+
+<!-- Recipe Information -->
+<div class="container-fluid p-4 bg-#021145">
+	<div class="m-3 p-3 bg-white text-white rounded">
+		<img class="img-fluid" src="pizza.jpg" alt="Pizza" width="380" height="330">
+		<!--<ul>
+			<li>Time:</li>
+			<li>Difficulty:</li>
+		</ul>
+	</div>  -->
+	</div>
+</div>
+
+<!-- Recipe Ingredients, Tools, and Instructions -->
+<div class="m-5 text-white">
+	<div class="row">
+	<!-- List for Ingredients and Tools -->
+	  <div class="col-sm-4">
+		<ul class="list-unstyled">
+			<h3>Ingredients</h3>
+			<li>
+				<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</li>
+				<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</li>
+				</ul>
+			</li>
+			<h3 class="pt-3">Tools</h3>
+			<li>
+				<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</li>
+				<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</li>
+				</ul>
+			</li>
+		</ul>
+	  </div>
+	<!-- Instructions Section -->
+	  <div class="col-sm-8">
+		<ol type="1"><h3>Instructions</h3>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In cursus turpis massa tincidunt dui ut. Suspendisse ultrices gravida dictum fusce ut.</li>
+			<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</li>
+			<li>Aut nisi voluptatem id omnis dolor ad unde quis.</li>
+			<li>Et dolorum dolorem et ipsa possimus in quia atque ad consequuntur excepturi.</li>
+		</ol>
+	  </div>
+	</div>
+</div>
+  
+
+<!-- New Recipes Section -->
+	<div class="container p-0 mt-6 mb-6">
+		<h2 class="text-start">NEW RECIPES</h2>
+		<div class="p-5 my-4 bg-#021145">
+			<div class="recipe_box">1</div>
+			<div class="recipe_box">2</div>
+			<div class="recipe_box">3</div>
+			<div class="recipe_box">4</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

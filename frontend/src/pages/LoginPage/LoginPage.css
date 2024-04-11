@@ -1,0 +1,59 @@
+.LoginBox {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 22.5rem;
+    font-family: Poppins,sans-serif;
+    width: 50%;
+    border: 3px solid whitesmoke;
+    margin-top: 20px;
+    margin-left: 24.5%;
+    margin-right: 24.5%;
+    background-color:  rgba(0, 0, 0, 0.273);
+    border-radius: 50px;
+
+}
+
+.LoginBox h2 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.LoginBox label {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.LoginBox input {
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+
+.LoginBox button {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5%;
+    margin-left: 25%;
+}
+
+.LoginBox button:hover {
+    background-color: white;
+}
+
+.LoginBox .InputBox {
+    margin-left: 30%;
+    width: 50%;
+    padding-bottom: 25px;
+}

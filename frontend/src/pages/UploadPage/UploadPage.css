@@ -1,0 +1,98 @@
+
+
+
+#uploadPage button {
+    margin-top: 4px;
+    margin-left: 8px;
+    background-color: orange;
+    border-radius: 10px;
+    border-color: orange;
+    color: rgb(0,0,69);
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#uploadPage input[type="radio"] {
+    display: none;
+}
+
+#uploadPage input[type="radio"] + span {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    margin: -1px 0px 0 0;
+    vertical-align: middle;
+    background: white left top no-repeat;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+  #uploadPage input[type="radio"]:checked + span {
+    background: orange -19px top no-repeat;
+  }
+  
+  #uploadPage input[type="radio"] + span {
+    margin-right: 180px;
+}
+
+#uploadPage input[type="text"], input[type="submit"], input[type="file"], textarea {
+    background-color: orange;
+    padding: 5px;
+    border: none;
+    box-shadow: none;
+    color: rgb(0, 0, 69);
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    height: 25px;
+}
+
+#uploadPage textarea {
+    height: 100px;
+}
+#uploadPage th {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+
+#uploadPage td,th {
+    padding: 8px;
+}
+
+#uploadPage tr:first {
+    background-color: orange;
+}
+
+
+#uploadPage tr {
+    background-color: rgb(0, 0, 60);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#uploadPage tr:nth-child(even) {
+    background-color: rgb(0, 0, 50);
+}
+
+#uploadPage form {
+  display: grid;
+  gap: 0.5em;
+  justify-content:center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+  #uploadPage .radio-label {
+    padding-left: 28px;
+    padding-top: 3px;
+    font-size: 14pt;
+    width: 100%;
+    white-space: nowrap;
+    font-family: Poppins,sans-serif;
+  }
